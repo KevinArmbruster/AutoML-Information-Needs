@@ -1,16 +1,17 @@
 # Human-in-the-Loop AutoML: Information Needs and Usage Patterns
 
+
 ## Motivation
 
-Automated machine learning (AutoML) tools have come a long way — from simple parameter tuning to sophisticated optimization methods like Bayesian optimization and evolutionary algorithms. Originally, they aimed to automate the full development of machine learning models by finding the best configurations automatically.
+Automated machine learning (AutoML) tools have come a long way — from simple search strategies to sophisticated optimization methods like Bayesian optimization and evolutionary algorithms. Originally, they aimed to automate the full development of machine learning models by finding the best configurations automatically.
 
 However, full automation is often not what practitioners need. In reality, experts often don't just want a final model handed over by a black-box system. Instead, experts often prefer gaining insights, control, and flexibility in guiding the process, adjusting decisions on the fly, and understanding how certain results are produced.
 
-Working with AutoML tools often means balancing performance, costs, and time. This also applies to iterative human-in-the-loop development with AutoML tools, which is characterized by running experiments, analyzing results, tewaking hyperparameters, and refining strategies. In such contexts, AutoML tools can assist exploration, sense-making, or hypothesis testing — not just optimization.
+Working with AutoML tools often means balancing performance, costs, and time. This also applies to iterative human-in-the-loop development with AutoML tools, which is characterized by running experiments, analyzing results, tweaking hyperparameters, and refining strategies. In such contexts, AutoML tools can assist exploration, sense-making, or hypothesis testing — not just optimization.
 
-But many AutoML tools aren’t designed with human-in-the-loop in mind. One-shot optimization is often assumed the ultimate goal, which is one reason why AutoML tools offer little transparency about what’s happening under the hood. This discrepancy between how tools are designed and how you actually work with them leads to frustrations, wasted resources, and missed opportunities.
+But many AutoML tools aren’t designed with human-in-the-loop in mind. One-shot optimization is often assumed the ultimate goal, which is one reason why AutoML tools offer little transparency about what’s happening under the hood. This discrepancy between how tools are designed and how you actually work with them leads to selecting suboptimal search spaces, difficulties interpreting intermediate results, wasting computational resources, and developing less robust models.
 
-That’s why we’re here. This workshop is about understanding the information needs in AutoML in human-in-the-loop workflows. Together, we’ll explore how AutoML can better support iterative, informed, and purposeful model development.
+That’s why we’re here. This workshop is about understanding the information needs in AutoML in human-in-the-loop workflows. Together, we’ll explore how AutoML can better support iterative model development.
 
 ## Goal
 
@@ -37,9 +38,10 @@ Your participation will help us define information needs in a structured, reusab
 
 ## Targeted Results
 
-We aim to provide a collection of information needs and, building on these information needs, information need patterns of AutoML tools in human-in-the-loop. A possible structure of the information need patterns is demonstrated in this [template](Template.md) and this [example](Example.md). This format is just a predefined format to make analyzing, refining and applying these information needs easier in the future.
+We aim to create a collection of information needs and, building on these information needs, information need patterns of AutoML tools in human-in-the-loop. A possible structure of the information need patterns is demonstrated in this [template](Template.md) and this [example](Example.md). The pattern is just a predefined format to make analyzing, refining and applying these information needs easier in the future.
 
 Information need patterns should describe the context, when specific information needs are relevant, which information is needed, how you acquire the needed information and your goal why you need certain information.
+
 
 ## Getting Started
 
@@ -48,8 +50,9 @@ Then, copy and start working on your first pattern using this [template](Templat
 
 It can help to think of a specific past project of yours. Try to remember the stages from start to finish along the [ML Pipeline](ML%20Pipeline%20Overview.md). Which goals did you persue in each stage or in general? Did you iterate over certain stages? Which decisions did you take? Which information was necessary to take a further step?
 
-There are no wrong answers! We are very interested in your experiences, what you have learned so far, when you apply this knowledge and how it has payed off for you.
-If you are unsure where to write down certain information feel free to write it to the seemingly most appropriate point, do not skip it if it feels important.
+There are no wrong answers! We are very interested in your personal experiences, what you have learned so far, when you apply this knowledge and how it has payed off for you.
+If you are unsure where to write down certain information feel free to write it to the seemingly most appropriate point — do not skip it if it feels important.
+
 
 ## Commit your Patterns
 
