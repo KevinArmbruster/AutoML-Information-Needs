@@ -21,7 +21,7 @@ We want to better understand how practitioners like you actually use AutoML tool
 We aim to uncover:
 - **What information you need** when working with AutoML tools
 - **Why you need it** — what decisions it helps you make
-- **When you need it** — at which stages in your workflow
+- **When you need it** — at which stages in your workflow across the [ML Pipeline](ML%20Pipeline%20Overview.md)
 - **How you go about finding it** — whether from the tool, experimentation, or other means
 
 By gathering this knowledge, we want to shed light on real-world AutoML usage patterns.  
