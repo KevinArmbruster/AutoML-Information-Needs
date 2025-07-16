@@ -14,24 +14,37 @@ That’s why we’re here. This workshop is about understanding the real informa
 
 ## Goal
 
-Our goal is to inform the design of future AutoML tools that better support expert workflows. AutoML tools are powerful but at times stiff, opaque and complex tools. We're here to explore how experts like you actually use these tools—not just to automate, but to understand. Through our focus group discussion, we aim to understand what information you seek, how you find it, and why it is essential to your workflow when developing machine learning models. 
+The goal of this workshop is simple but important:  
+We want to better understand how practitioners like you actually use AutoML tools — not as a means of full automation, but as a tool for exploration, learning, and decision-making in your workflow.
 
-We want to consider the decisions you make across most of the [ML Pipeline](ML%20Pipeline%20Overview.md), from data preparation to model validation. Crucially, we also want to understand the iterative nature of your work—how your strategy evolves from an initial, broad exploration to a more focused, refined search in subsequent runs.
+We aim to uncover:
+- **What information you need** when working with AutoML tools
+- **Why you need it** — what decisions it helps you make
+- **When you need it** — at which stages in your workflow
+- **How you go about finding it** — whether from the tool, experimentation, or other means
 
-This is not an academic exercise—your insights will directly shape the next generation of human-centered AutoML tools. By sharing your experience, you're helping design AutoML systems more aligned with expert workflows.
+By gathering this knowledge, we want to shed light on real-world AutoML usage patterns.  
+Our long-term goal is to help design AutoML tools that:
+- **Support human-in-the-loop workflows** instead of assuming full automation
+- **Make relevant information accessible when you need it**
+- **Adapt to the iterative nature of model development**
+
+This workshop is not about testing hypotheses or validating existing tools.  
+It’s about capturing your experiences, challenges, and strategies — and using them to inform better tool design that fits your actual work, not the idealized workflows often assumed by tool developers.
+
+Your participation will help us define information needs in a structured, reusable way — so they can directly inspire the next generation of AutoML tools that are transparent, flexible, and centered on expert users like you.
+
 
 ## Targeted Results
 
-We want to create a collection of information need patterns - which is just a predefined format to make analyzing, refining and applying these information needs easier in the future.
+We aim to provide a collection of information needs and, building on these information needs, information need patterns of AutoML tools in human-in-the-loop. A possible structure of the information need patterns is demonstrated in this [template](Template.md) and this [example](Example.md). This format is just a predefined format to make analyzing, refining and applying these information needs easier in the future.
 
-Information need patterns should describe the context, when this information need is relevant, which information is needed, how you acquire the information and your goal why you need certain information.
-
-To make it easier to work with, we created a [template](Template.md) and an [example](Example.md).
+Information need patterns should describe the context, when specific information needs are relevant, which information is needed, how you acquire the needed information and your goal why you need certain information.
 
 ## Getting Started
 
 Please start to create your own directory in the workshop folder.
-Then, copy and start working on your first pattern using this [template](Template.md)!
+Then, copy and start working on your first pattern using this [template](Template.md)! Please use [template](Template.md) and an [example](Example.md) to articulate your information needs.
 
 It can help to think of a specific past project of yours. Try to remember the stages from start to finish along the [ML Pipeline](ML%20Pipeline%20Overview.md). Which goals did you persue in each stage or in general? Did you iterate over certain stages? Which decisions did you take? Which information was necessary to take a further step?
 
