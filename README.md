@@ -1,8 +1,16 @@
-# Human-in-the-Loop AutoML: Information Needs and Behavioral Patterns
+# Human-in-the-Loop AutoML: Information Needs and Usage Patterns
 
 ## Motivation
 
-TBD
+Automated machine learning (AutoML) tools have come a long way — from simple parameter tuning to sophisticated optimization methods like Bayesian optimization and evolutionary algorithms. Originally, they aimed to automate the full development of machine learning models by finding the best configurations automatically.
+
+However, full automation is often not what practitioners need. In reality, experts like you don't just want a final model handed over by a black-box system. You want insights, control, and flexibility — the ability to guide the process, adjust decisions on the fly, and understand why certain results happen.
+
+We know that working with AutoML often means balancing performance, costs, and time. It means iterating: running experiments, analyzing results, tweaking hyperparameters, and refining strategies. You might use AutoML for exploration, sense-making, or hypothesis testing — not just optimization.
+
+But many AutoML tools aren’t designed with this in mind. They tend to assume a one-shot optimization goal and offer little transparency about what’s happening under the hood. This gap between how tools are designed and how you actually work with them leads to frustrations, wasted resources, and missed opportunities.
+
+That’s why we’re here. This workshop is about understanding the real information needs behind expert AutoML usage — not just automation, but human-in-the-loop workflows. Together, we’ll explore how AutoML can better support iterative, informed, and purposeful model development.
 
 ## Goal
 
