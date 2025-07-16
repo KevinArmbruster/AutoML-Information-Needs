@@ -45,8 +45,17 @@ Information need patterns should describe the context, when specific information
 
 ## Getting Started
 
-Please start to create your own directory in the workshop folder.
-Then, copy and start working on your first pattern using this [template](Template.md)! Please use [template](Template.md) and an [example](Example.md) to articulate your information needs.
+### Editor
+
+You can open any GitHub repository in **github.dev** in either of the following ways:
+
+* To open the repository in the same browser tab, press . while browsing any repository or pull request on GitHub.
+* To open the repository in a new browser tab, press >.
+* When viewing a file, select the edit dropdown menu and click github.dev.
+
+### Creating Patterns
+
+Please copy and start working on your first pattern using this [template](workshop/Template.md)! Please use [template](workshop/Template.md) and an [example](workshop/Example.md) to articulate your information needs.
 
 It can help to think of a specific past project of yours. Try to remember the stages from start to finish along the [ML Pipeline](ML%20Pipeline%20Overview.md). Which goals did you persue in each stage or in general? Did you iterate over certain stages? Which decisions did you take? Which information was necessary to take a further step?
 
