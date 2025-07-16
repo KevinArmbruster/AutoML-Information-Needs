@@ -1,4 +1,8 @@
-# AutoML Information Need Patterns
+# Human-in-the-Loop AutoML: Information Needs and Behavioral Patterns
+
+## Motivation
+
+TBD
 
 ## Goal
 
