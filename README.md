@@ -47,7 +47,7 @@ Information need patterns should describe the context, when specific information
 
 ### Editor
 
-You can open any GitHub repository in **github.dev** in either of the following ways:
+You can open any GitHub repository in your browser in the following ways:
 
 * To open the repository in the same browser tab, press . while browsing any repository or pull request on GitHub.
 * To open the repository in a new browser tab, press >.
