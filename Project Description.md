@@ -1,4 +1,7 @@
 
+# Project Description
+
+
 ## Motivation
 
 The initial idea of AutoML was full, end-to-end automation. This "black-box" approach often falls short, as practitioners value the ability to gain insights, maintain control, and interactively guide the model development process.

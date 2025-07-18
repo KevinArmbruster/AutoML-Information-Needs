@@ -1,6 +1,7 @@
-# Human-in-the-Loop AutoML: Information Needs and Usage Patterns
+# Human-in-the-Loop AutoML: Goals and Information Needs
 
 If you want, feel free to scan a summarized [project description](Project%20Description.md), including the motivation, goals and targeted results.
+
 
 ## Getting Started
 
