@@ -5,7 +5,7 @@
 ## Motivation
 
 The initial idea of AutoML was full, end-to-end automation. This "black-box" approach often falls short, as practitioners value the ability to gain insights, maintain control, and interactively guide the model development process.
-However, many AutoML tools are not designed for human-in-the-loop interaction. Their focus on one-shot optimization creates a lack of support for real-world workflows, leading to suboptimal search spaces, poor interpretability, and wasted resources.
+However, many AutoML tools are not designed for human-in-the-loop interaction. Their focus on one-shot optimization creates a lack of support for real-world workflows, leading to suboptimal search spaces, misinterpretation of results, and wasted resources.
 
 This workshop is about understanding the goals and information needs along the ML pipeline in human-in-the-loop AutoML workflows.
 
