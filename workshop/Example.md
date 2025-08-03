@@ -1,7 +1,7 @@
 # Pattern Name
 *Give the pattern a short and descriptive name.*
 
-Search Space Scoping
+Search Space Scoping.
 
 ## Context
 *Describe the scenario where this pattern is applicable. When would a developer start thinking about this problem? Describe the ML Task, Model, Data Type & Volume, and Pipeline Stage*
