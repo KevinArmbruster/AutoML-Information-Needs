@@ -26,3 +26,13 @@ It can help to think of a specific past project of yours. Try to remember the st
 
 There are no wrong answers! We are very interested in your personal experiences, what you have learned so far, when you apply this knowledge and how it has payed off for you.
 If you are unsure where to write down certain information feel free to write it to the seemingly most appropriate point — do not skip it if it feels important.
+
+
+### Commiting and Creating a Pull Request
+
+1. Commit all your changes into the main branch of your forked repository.
+2. Open your own forked repository ``AutoML-Research / automl-information-need-patterns-*name*``.
+3. Open ``Pull Requests`` > Select ``New Pull Request``> Select ``Compare accross forks``.
+4. Select the base repository as ``AutoML-Information-Needs-Classroom``. The head repository is already your own fork ``AutoML-Research / automl-information-need-patterns-*name*``.
+5. Select ``Create Pull Request`` > Add your group name as the title > Select ``Create Pull Request``.
+6. You are ready to review! Navigate to Pull Requests in [AutoML-Information-Needs-Classroom](https://github.com/AutoML-Research/AutoML-Information-Needs-Classroom/pulls).
