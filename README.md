@@ -30,6 +30,8 @@ If you are unsure where to write down certain information feel free to write it 
 
 ### Commiting and Creating a Pull Request
 
+At the end of creating patterns and before reviewing:
+
 1. Commit all your changes into the main branch of your forked repository.
 2. Open your own forked repository ``AutoML-Research / automl-information-need-patterns-*name*``.
 3. Open ``Pull Requests`` > Select ``New Pull Request``> Select ``Compare accross forks``.
