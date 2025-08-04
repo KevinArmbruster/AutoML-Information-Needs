@@ -12,7 +12,8 @@ You can open this GitHub repository in the github.dev editor in your browser by 
 
 ### Creating Patterns
 
-Please copy and start working on your first pattern using this [template](workshop/Template.md)! Please use the [template](workshop/Template.md) and an [example](workshop/Example.md) to articulate your goals and information needs.
+Go to the ``workshop`` folder to copy and start working on your first pattern using this [template](workshop/Template.md).
+Please use the [template](workshop/Template.md) and an [example](workshop/Example.md) to articulate your goals and information needs.
 
 
 ### Ideation
