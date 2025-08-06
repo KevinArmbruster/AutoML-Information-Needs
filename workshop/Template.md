@@ -18,7 +18,7 @@ Describe the trade-offs or conflicting concerns that need to be balanced.
 
 
 ## Solution
-Describe what specific information you collect to achieve your goal.
+Describe what specific information you collect to achieve your goal. Please also describe how you collect the needed information.
 
 
 ## Rationale
@@ -35,6 +35,7 @@ List any other connected patterns, goals, and problems, that are prerequisites, 
 
 ## Known Uses
 Please describe, if you know this pattern to be suitable for other contexts as well. Also, if you know it is unsuitable for certain contexts.
+
 
 
 
