@@ -33,9 +33,9 @@ If you are unsure where to write down certain information feel free to write it 
 
 At the end of creating patterns and before reviewing:
 
-1. Commit all your changes into the main branch of your forked repository.
-2. Open your own forked repository ``AutoML-Research / automl-information-need-patterns-*name*``.
-3. Open ``Pull Requests`` > Select ``New Pull Request``> Select ``Compare accross forks``.
+1. From the editor, commit all your changes into the main branch of your forked repository.
+2. Switch to your own forked repository landing page ``AutoML-Research / automl-information-need-patterns-*name*``.
+3. Open ``Pull Requests`` > Select ``New Pull Request``> Select the highlighted text ``Compare accross forks``.
 4. Select the base repository as ``AutoML-Information-Needs-Classroom``. The head repository is already your own fork ``AutoML-Research / automl-information-need-patterns-*name*``.
 5. Select ``Create Pull Request`` > Add your group name as the title > Select ``Create Pull Request``.
 6. You are ready to review! Navigate to Pull Requests in [AutoML-Information-Needs-Classroom](https://github.com/AutoML-Research/AutoML-Information-Needs-Classroom/pulls).

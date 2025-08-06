@@ -3,17 +3,8 @@
 
 Search Space Scoping
 
-## Context
-*Describe the context within which the problem desribed in the next section occurs. Context includes the ML task, ML model, data type and amount of data, and pipeline stage but extend to more aspects. Please focus on contextual factors that help distinguish the problem tackled in this patterns from similar problems in other contexts.*
-
-I'm training a Convolutional Neural Network, a ResNet, for a supervised image classification task.
-My dataset has about 25,000 images (10GB) and 100 different categories.
-A single training run with my baseline settings takes about 45 minutes on the GPU I have access to.
-I have a working baseline model, but its performance isn't good enough for my project's needs.
-The next step is Hyperparameter Optimization (HPO).
-
 ## Problem
-*Clearly describe the problem that the pattern is intended to solve within the context described above. The problem should be solvable by collecting information about the model or optimization process, as you will describe in the section "Solution". Please also describe the goal that you want to reach.*
+*Describe the problem that the pattern is intended to solve. The problem should be solvable by collecting information about the data, model or optimization process. Also, please describe the goal that you want to reach.*
 
 The problem is, my model has dozens of hyperparameters.
 I know that tuning all of them is impossible with my time and compute budget.
@@ -23,8 +14,17 @@ My goal is to achieve the best performance according to F1 score.
 I need to decide which hyperparameters I'm going to tune simultaneously and which ones I'll just fix to a constant value.
 This way, I can maximize my chances of finding a great model without wasting compute resources.
 
+## Context
+*Describe the context within which the described problem occurs. The context should include the ML task, ML model, data type and amount of data, and pipeline stage as well as any other information you think is relevant. Please focus on contextual factors that help distinguish the problem tackled in this pattern.*
+
+I'm training a Convolutional Neural Network, a ResNet, for a supervised image classification task.
+My dataset has about 25,000 images (10GB) and 100 different categories.
+A single training run with my baseline settings takes about 45 minutes on the GPU I have access to.
+I have a working baseline model, but its performance isn't good enough for my project's needs.
+The next step is Hyperparameter Optimization (HPO).
+
 ## Forces
-*Describe the trade-offs or conflicting concerns that need to be balanced.*
+*Describe competing concerns, constraints, and influences that shape your decision-making process.*
 
 * My team usually only uses default hyperparameters and maybe tweaks the learning rate a bit, otherwise they do not do HPO because it costs to much time.
 * I am not sure which parameters are the most sensitive to change and therefore the ones I should focus on.
@@ -33,7 +33,7 @@ This way, I can maximize my chances of finding a great model without wasting com
 
 
 ## Solution
-*Describe what specific information you collect to achieve your goal. Please also describe how you collect the needed information.*
+*Describe what specific information you collect to achieve your goal. Please also describe how you aquire the needed information.*
 
 I use all hyperparameters in a few low-fidelity runs to gauge which hyperparameters are the most important.
 I already know from experience that the learning rate and batch size are important so I leave those during initial search on the default value.
@@ -47,21 +47,12 @@ If I define fewer parameters I can search them more thouroughly.
 Also, I can understand the plots for my top 3-4 variables more easily than if I optimize 10+ at the same time.
 
 ## Resulting Context
-*Describe the outcome and any advantages. Also, describe any new trade-offs or disadvantages this might introduce.*
+*Describe the outcome: any advantages, new trade-offs, or disadvantages this might introduce.*
 
-I create a list of hyperparameters I've decided to actively tune and to leave at the default value.
-
-
-## Related Patterns
-*List any other connected patterns, goals, and problems, that are prerequisites, alternatives.*
-
-* Selecting search ranges per hyperparameter
-* HPO algorithm selection
-* Selecting of primary metric
+I create a list of hyperparameters I've decided to actively tune and to leave at the default value.ll
 
 ## Known Uses
-*Please describe, if you know this pattern to be suitable for other contexts as well. Also, if you know it is unsuitable for certain contexts.*
+*Describe, if you know this pattern is suitable for other contexts as well. Also, if you know it is unsuitable for certain contexts.*
 
-This is something I do in virtually every project. It's a fundamental part of the process in classic or deep learning, and visual and tabular data.
+This is something I do in virtually every project. It's a fundamental part of the process in classic or deep learning, visual and tabular data.
 I only skip it if I have less than 8 variabels.
-
