@@ -5,7 +5,7 @@ Give the pattern a short and descriptive name.
 
 ## Context
 Describe the context within which the problem desribed in the next section occurs.
-Context* includes the ML task, ML model, data type and amount of data, and pipeline stage but extend to more aspects.
+*Context* includes the ML task, ML model, data type and amount of data, and pipeline stage but extend to more aspects.
 Please focus on contextual factors that help distinguish the problem tackled in this patterns from similar problems in other contexts.
 
 
@@ -47,6 +47,7 @@ List any other connected patterns, goals, and problems, that are prerequisites, 
 
 ## Known Uses & Limitations
 Please describe, if you know this pattern to be suitable for other contexts as well. Also, if you know it is unsuitable for certain contexts.
+
 
 
 
