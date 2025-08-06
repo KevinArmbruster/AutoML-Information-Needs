@@ -8,17 +8,17 @@
 
 
 
-### Problem
+## Problem
 *Clearly state your specific problem in this context. What are the risks and inefficiencies that you are trying to avoid?*
 
 
 
-### Forces
+## Forces
 *Describe the trade-offs or conflicting concerns that need to be balanced.*
 
 
 
-### My Goal
+## My Goal
 *A description of the goal that you want to reach.*
 
 
@@ -45,5 +45,6 @@
 
 ## Known Uses & Limitations
 *Please describe, if you know this pattern to be suitable for other contexts as well. Also, if you know it is unsuitable for certain contexts.*
+
 
 
