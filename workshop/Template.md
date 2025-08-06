@@ -23,7 +23,7 @@
 
 
 
-## Information Need
+## Required Information
 *Describe what specific questions you need to answer to achieve your goal.*
 
 

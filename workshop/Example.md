@@ -34,7 +34,7 @@ My goal is to achieve the best performance according to F1 score.
 I need to decide which hyperparameters I'm going to tune simultaneously and which ones I'll just fix to a constant value.
 This way, I can maximize my chances of finding a great model without wasting compute resources.
 
-## Information Need
+## Required Information
 *Describe what questions you need to answer to achieve your goal. Additionally, specify if the information you need changes over iterations.*
 
 I use all hyperparameters in a few low-fidelity runs to gauge which hyperparameters are the most important.
