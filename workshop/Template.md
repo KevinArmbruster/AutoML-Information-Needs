@@ -11,7 +11,7 @@ Please focus on contextual factors that help distinguish the problem tackled in 
 
 
 ## Problem
-*Clearly state your specific problem in this context. What are the risks and inefficiencies that you are trying to avoid?
+Clearly state your specific problem in this context. What are the risks and inefficiencies that you are trying to avoid?
 
 
 
@@ -47,6 +47,7 @@ List any other connected patterns, goals, and problems, that are prerequisites, 
 
 ## Known Uses & Limitations
 Please describe, if you know this pattern to be suitable for other contexts as well. Also, if you know it is unsuitable for certain contexts.
+
 
 
 
