@@ -29,6 +29,8 @@ There are no wrong answers! We are very interested in your personal experiences,
 If you are unsure where to write down certain information feel free to write it to the seemingly most appropriate point — do not skip it if it feels important.
 
 
+## Review
+
 ### Commiting and Creating a Pull Request
 
 At the end of creating patterns and before reviewing:
