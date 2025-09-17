@@ -3,37 +3,42 @@
 
 
 
+## Goal
+*Describe the goal that you want to reach. The goal should be reachable by collecting information about the data, model or optimization process.*
+
+
+
 ## Problem
-*Describe the problem that the pattern is intended to solve. The problem should be solvable by collecting information about the data, model or optimization process. Also, please describe the goal that you want to reach.*
+*Describe the specific obstacle that prevents you from reaching your goal.*
 
 
 
 ## Context
-*Describe the context within which the described problem occurs. The context should include the ML task, ML model, data type and amount of data, and pipeline stage as well as any other information you think is relevant. Please focus on contextual factors that help distinguish the problem tackled in this pattern.*
+*Describe the ML task, model type, data specifics (such as type and amount), pipeline stage, and any other contextual factors that help distinguish this pattern.*
 
 
 
 ## Forces
-*Describe competing concerns, constraints, and influences that shape your decision-making process.*
+*Describe competing concerns, constraints, and influences that make this decision difficult.*
 
 
 
 ## Solution
-*Describe what specific information you collect to achieve your goal. Please also describe how you aquire the needed information.*
+*Describe what specific information you collect to achieve your goal and your method to aquired this information.*
 
 
 
 ## Rationale
-*Explain why the aquired information helps you to solve the problem. Why is the information a good choice to solve the problem.*
+*Explain why this specific information is the right choice to achieve your goal.*
 
 
 
 ## Resulting Context
-*Describe the outcome: any advantages, new trade-offs, or disadvantages this might introduce.*
+*Describe the outcome. What are the advantages, disadvantages, or trade-offs?*
 
 
 
 ## Known Uses
-*Describe, if you know this pattern is suitable for other contexts as well. Also, if you know it is unsuitable for certain contexts.*
+*Where else might this pattern apply? Are there contexts where it would be unsuitable?*
 
 
